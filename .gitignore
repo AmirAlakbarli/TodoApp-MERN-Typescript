@@ -1,0 +1,32 @@
+# Ignore node_modules directory in the root and in all subdirectories
+node_modules/
+
+# Ignore build and output files from server
+server/build/
+server/dist/
+server/out/
+
+# Ignore build and output files from client
+client/build/
+client/dist/
+client/out/
+
+# Ignore environment variables file
+.env
+
+# Ignore logs and other runtime data
+logs/
+*.log
+npm-debug.log*
+
+# Ignore configuration files
+config.js
+config.json
+*.config.js
+
+# Ignore any temporary files or backups
+*.swp
+*~
+.DS_Store
+.idea/
+.vscode/
