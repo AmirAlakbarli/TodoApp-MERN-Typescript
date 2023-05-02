@@ -1,20 +1,43 @@
-# Node.js
-node_modules/
-npm-debug.log
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+*.swp
+
+pids
+logs
+results
+tmp
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
 *.env
+nodemon.json
 
-# TypeScript
-*.tsbuildinfo
-*.ts
-*.tsx
+# Dependency directory
+node_modules
+bower_components
 
-# Dependency directories
-/.pnp
-.pnp.js
+# Editors
+.idea
+*.iml
 
-# IDE/Editor
-.vscode/
-.idea/
+# OS metadata
+.DS_Store
+Thumbs.db
 
-# Build output
-/dist
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock
