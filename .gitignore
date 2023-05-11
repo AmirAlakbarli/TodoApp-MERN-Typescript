@@ -11,8 +11,8 @@ client/build/
 client/dist/
 client/out/
 
-# Ignore environment variables file
-.env
+# all env files
+*.env
 
 # Ignore logs and other runtime data
 logs/

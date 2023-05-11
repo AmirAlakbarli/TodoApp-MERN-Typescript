@@ -20,8 +20,8 @@ public/css/main.css
 coverage
 
 # API keys and secrets
-.env
 *.env
+
 nodemon.json
 
 # Dependency directory

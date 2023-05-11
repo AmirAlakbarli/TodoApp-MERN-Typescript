@@ -20,7 +20,7 @@ if (process.env.NODE_ENV == "development") {
 app.use(express.json());
 app.use("/api", todoRoutes);
 
-const uri: string = `mongodb+srv://${process.env.MONGO_USER}:${process.env.MONGO_PASSWORD}@server.ctltk7y.mongodb.net/${process.env.MONGO_DB}?retryWrites=true&w=majority`;
+const uri: string = `mongodb://mongodb:27017/${process.env.DB_NAME}`;
 
 mongoose
   .connect(uri)

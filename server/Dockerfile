@@ -1,6 +1,6 @@
 # ==== CONFIGURE =====
 # Use a Node 16 base image
-FROM node:16 AS Production
+FROM node:16
 # Set the working directory to /app inside the container
 WORKDIR /todoapp/server
 # Copy app files
